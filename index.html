@@ -15,19 +15,23 @@
     </header>
     <main>
         <div class="funcion">
-            <input id="entrada" type="text" value="" placeholder="Ingrese el texto aquí">
-            <p><i class="fa-solid fa-circle-exclamation"></i> Solo letras en minúscula y sin acento</p>
+            <textarea id="entrada" rows="10" cols="20" value="" placeholder="Ingrese el texto aquí"></textarea>
+            <p class="alerta"><i class="fa-solid fa-circle-exclamation"></i> Solo letras en minúscula y sin acento</p>
             <div class="botones">
                 <button id="encriptar">Encriptador <i class="fa-solid fa-key"></i></button>
                 <button id="desencriptar">Desencriptador <i class="fa-solid fa-unlock-keyhole"></i></button>
             </div>
         </div>
-        <div class="respuesta">
-            
+        <div id="respuesta" class="caja-respuesta">
+            <img src="./images/muneco.png" alt="Persona con lupa">
+            <div>
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que quieres encriptar</p>
+            </div>
         </div>
     </main>
     <footer>
-        <p>Desarrollo realzado por Rodriguez Bernal Ariel Hernan 2022</p>
+        <p>Desarrollo realizado por Rodriguez Bernal Ariel Hernan 2022</p>
     </footer>
 </body>
 </html>
